@@ -2,7 +2,7 @@ public class Maison extends Batiment {
     private int nbPiece;
     private double jardin;
 
-    public Maison(int nbPiece, double jardin, String adresse, double surface){
+    public Maison(String adresse, double surface,int nbPiece, double jardin){
         super(adresse, surface);
         this.jardin = jardin;
         this.nbPiece = nbPiece;

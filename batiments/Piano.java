@@ -6,8 +6,8 @@ public class Piano extends Corde{
 
     public Piano() {}
 
-    public Piano (String typePiano, int nbTouches, boolean toucherLourd, int qualiteEchantillon) {
-        super();
+    public Piano (String nom, double prixAchat ,double prixVente ,double longueur, double largeur,String typePiano, int nbTouches, boolean toucherLourd, int qualiteEchantillon) {
+        super(nom,prixAchat,prixVente,longueur,largeur);
         this.typePiano = typePiano;
         this.nbTouches = nbTouches;
         this.toucherLourd = toucherLourd;

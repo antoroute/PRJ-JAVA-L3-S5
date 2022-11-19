@@ -6,7 +6,7 @@ public class Immeuble extends Batiment{
 
     }
 
-    public Immeuble(int nbAppartements,String adresse, double surface){
+    public Immeuble(String adresse, double surface,int nbAppartements){
         super(adresse, surface);
         this.nbAppartements = nbAppartements;
     }
