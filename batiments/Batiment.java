@@ -1,8 +1,12 @@
-public class Batiment {
-    static private String adresse;
-    static private double surface;
+public abstract Batiment {
+    String adresse();
+    double surface();
+    
+    //public abstract double s.urface(double surface){
+        
+    //};
 
-    public Batiment() {
+   public Batiment() {
 
     }
 

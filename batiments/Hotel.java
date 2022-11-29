@@ -1,4 +1,4 @@
-public class Hotel extends Batiment{
+public abstract class  Hotel implements Batiment{
 
     static private int nbChambres;
     static private int nbSuites;
@@ -9,7 +9,8 @@ public class Hotel extends Batiment{
     public Hotel() {}
 
     public Hotel(int nbChambres, int nbSuites, int nbPiscine, String adresse, double surface) {
-        super(adresse, surface);
+        super(adresse,surface);
+        //Batiment.surface(this)
         this.nbChambres = nbChambres;
         this.nbSuites = nbSuites;
         this.nbPiscines = nbPiscine;
